@@ -1,6 +1,6 @@
 {
-  "name": "starwars-names-tut",
-  "version": "1.0.0",
+  "name": "starwars-names-tut-useless-package",
+  "version": "1.1.0",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "star",
     "wars"
   ],
-  "author": "HeyItsSplit <mat.jake1360@gmail.com>",
+  "author": "heyttssplit <mat.jake1360@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MWolf88/starwars-names/issues"
