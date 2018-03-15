@@ -9,7 +9,7 @@ Get Random Star wars names
 
 
 ```es6
-import starWars from starwars-names-tut-useless
+import starWars from 'starwars-names-tut-useless'
     Get all names
         starWars.all
     Get Random Name
