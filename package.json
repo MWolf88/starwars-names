@@ -1,11 +1,11 @@
 {
-  "name": "starwars-names-tut-useless-package",
+  "name": "starwars-names-tut-useless",
   "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test":"mocha src/index.test.js",
+    "test": "mocha src/index.test.js",
     "watch:test": "mocha src/index.test.js -w",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
@@ -38,7 +38,7 @@
   },
   "config": {
     "commitizen": {
-      "path":"node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-conventional-changelog"
     }
   }
 }
