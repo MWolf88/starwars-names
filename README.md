@@ -8,7 +8,7 @@
 Get Random Star wars names
 
 
-```nodejs
+```es6
 import starWars from starwars-names-tut-useless
     Get all names
         starWars.all
