@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    "report-coverage": "cat ./coverage/lovcov.info | codecov",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js",
     "prebuild": "rimraf dist",
     "build": "babel --copy-files --out-dir dist --ignore *.test.js  src",
